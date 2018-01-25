@@ -1,7 +1,8 @@
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:id="@+id/activity_list_coordinator">
 
     <android.support.v4.widget.SwipeRefreshLayout
         android:id="@+id/swipe_refresh_layout"
@@ -24,7 +25,8 @@
         android:id="@+id/toolbar_container"
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize"
-        android:background="?colorPrimary">
+        android:background="?colorPrimary"
+        android:elevation="@dimen/appbar_elevation">
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
